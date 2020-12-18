@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+
+/** Custom CSS starts here  */
+
+
+/** // End custom CSS */
+@tailwind utilities;
+
+/**
+Transpiling....
+1. Tailwind-like CSS >>> Proper CSS Code
+2. Include the proper CSS code in our HTML
+ */

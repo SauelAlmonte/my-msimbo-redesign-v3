@@ -1,0 +1,297 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    background-color: whitesmoke;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav__links a,
+.cta,
+.overlay__content a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: Black;
+    text-decoration: none;
+}
+
+.nav__links {
+    list-style: none;
+    display: flex;
+}
+
+.nav__links li {
+    padding: 0px 20px;
+}
+
+.nav__links li a {
+    transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+    color: red;
+}
+
+.cta {
+    padding: 15px 10px;
+    background-color: red;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+}
+
+.cta:hover {
+    background-color: lightgray;
+}
+
+/* Mobile Nav */
+ 
+.menu {
+    display: none;
+}
+
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: lightgray;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+}
+
+.overlay--active {
+    width: 100%;
+}
+
+.overlay__content {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
+}
+
+.overlay a:hover,
+.overlay a:focus {
+    color: red;
+}
+.overlay .close {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+    color: #edf0f1;
+}
+
+@media screen and (max-height: 450px) {
+    .overlay a {
+        font-size: 20px;
+    }
+    .overlay .close {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .nav__links,
+    .cta {
+        display: none;
+    }
+    .menu {
+        display: initial;
+    }
+}  */
+/* sauel section ends */
+
+/* Ahmed start */
+
+/* .main1 {
+    padding: 10px;
+    height: 150vh;
+    /*read more */
+    /* background: url("img/old/florian-olivo-4hbJ-eymZ1o-unsplash.jpg") */
+    /* no-repeat center center/cover; */
+/* } */
+
+/* For msimbo logo*/
+.main2 {
+    display: flex;
+    justify-content: center;
+    min-height: calc(100vh - 70px);
+    background: no-repeat center;
+    margin-top: 200px;
+    box-shadow: inset;
+}
+
+/* For msimbo logo */
+.msimbo_logo {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+    top: 60px;
+    left: 10px;
+    border: 1px;
+    width: 150px;
+    text-shadow: red 10px 10px 10px;
+
+}
+
+/* Rules for text at the center */
+.text1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 2rem;
+    color: white;
+    font-size: 2rem;
+    text-shadow: lightskyblue 10px 10px 10px;
+}
+/*End of Ahmed CSS*/
+
+/* Johane start */
+
+h2 {
+style: inline; 2px;
+
+}
+
+.image {
+    float: left;
+    width: 150px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.container {
+overflow: hidden;
+background-color: white;
+}
+
+.content {
+float: right;
+margin-up: 10px;
+margin-down: 20px;
+margin-left: 50px;
+margin-right: 5px;
+width: 400px;
+height: 300px;
+background-color: white;
+}
+
+
+.button {
+margin-top: 30px;
+margin-bottom: 10px;
+overflow: hidden;
+}
+
+
+/*Xavier Section start */
+.X-container {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    position: relative;
+    bottom: 0;
+
+
+
+}
+
+#background {
+    display: flex;
+    justify-content: space-around;
+    background: url("img/old/triple-img-whole.png") no-repeat center center/cover;
+    padding: 50px;
+    padding-top: 180px;
+
+
+}
+
+#background div:nth-child(1) {
+    width: 150px;
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    border-radius: 15px 0 0 15px;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px;
+
+
+}
+
+#background div:nth-child(2) {
+    width: 150px;
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px;
+}
+
+
+#background div:nth-child(3) {
+    width: 150px;
+    width: 25%;
+    height: 400px;
+    background: white;
+    text-align: center;
+    border-radius: 0 15px 15px 0;
+    padding: 20px;
+    box-shadow: 1px 2px 2px 2px
+    font-family:  'Roboto Slab', serif;
+    border: black;
+    border-bottom: 1px;
+}
+
+hr {
+
+    height: 10px;
+    width: 1250px;
+    border: none;
+    background-image: linear-gradient(red,white);
+
+
+}
+
+.footer { 
+    display: flex;
+    justify-content: center;
+    font-family: 'Roboto Slab', serif;
+    bottom: 0;
+    text-align: center;
+    color: white ;
+    background-image: linear-gradient(black, red);
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+
+/*Xavier Section ended  */
