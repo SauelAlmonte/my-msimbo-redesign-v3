@@ -99,3 +99,8 @@ https://github.com/YOUR_GITHUB_ID/Project-3-v2
 
 ## Footer/
 ### Xavier Parham
+
+6. I began analyzing each team memebrs work I began to see how they created tehir sections
+7. After analyzing I began fixing the issues that previously happened on Demo Day, so everything would work in perfect harmony, as best as I could
+8. I attempted to incorporate Java Script but I am still trying my best to catch up, but also understand it.
+9. I have deployed the finished project to Vercel, any question?
