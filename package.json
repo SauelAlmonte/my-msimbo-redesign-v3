@@ -4,7 +4,7 @@
   },
   "dependencies": {
     "autoprefixer": "^10.1.0",
-    "postcss": "^8.2.1",
+    "postcss": "^8.2.13",
     "tailwindcss": "^2.0.2",
     "tailwindcss-glow": "^0.3.8",
     "tailwindcss-shadow-outline-colors": "^0.0.8",
